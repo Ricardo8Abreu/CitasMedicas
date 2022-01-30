@@ -2,7 +2,7 @@ const Cita = require('../models/citasSchema')
 
 
 const citasGET = async (req, res)=>{
-    const citas = await Cita.find()
+  //  const citas = await Cita.find()
     res.json({
         mensaje: 'Tomando datos '
     }) 
